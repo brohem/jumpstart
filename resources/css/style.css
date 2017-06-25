@@ -1,0 +1,219 @@
+/* GLOBAL */
+body{
+margin: 0;
+padding: 0;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px; /* base font-size mainly for margins and paddings */
+/* NOTE:  line-height: 1.5rem;*/
+}
+
+  /* opacity for all the images in all the sub-sections*/
+  .image-container{
+      opacity: 0.7;
+  }
+
+  /* general styling for all the buttons */
+  .btn-primary{
+    padding: 1.3rem 0;
+    width: 11.4rem;
+    background-color: 	rgb(57, 155, 209);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    border: none;
+    transition: box-shadow 1s;
+  }
+
+  .btn-primary:hover{
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+    background-color: 	rgb(57, 155, 209);
+  }
+  .btn-primary:active{
+    box-shadow: 0 0 rgba(0, 0, 0, 0.5);
+  }/*END general styling for all the buttons */
+
+/*end GLOBAL */
+
+/* ------------------------------------------------- */
+
+/* HEADER */
+header{
+  font-size: 1.1rem;
+}
+
+.navbar-default .navbar-nav .active a{
+  color: 	rgb(57, 155, 209);
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav .active a:hover{
+  background-color: inherit;
+}
+
+    /* MOBILE HEADER */
+     @media only screen and (max-width : 1080px){
+
+       .navbar-brand{
+         display: none;
+       }
+
+    }
+    /*end MOBILE HEADER */
+
+/*end HEADER */
+
+/* ------------------------------------------------- */
+
+/* JUMBOTRON */
+.jumbotron{
+  background-image: url("../img/jumbotron-bike.jpg");
+  background-size: cover;
+  color: rgb(255, 255, 255); /* text color white */
+  margin-top: 5rem;
+}
+
+.jumbotron .container{
+  text-align: center;
+  line-height: 3rem;
+  padding: 11.85rem 0;
+}
+
+.jumbotron h1{
+  font-family: 'Monoton', cursive;
+  font-size: 7.1rem;
+  text-shadow: -1px -1px 0 rgb(0, 0, 0),
+               -1px -1px 0 rgb(0, 0, 0),
+               -1px -1px 0 rgb(0, 0, 0),
+               -1px -1px 0 rgb(0, 0, 0);
+}
+
+.jumbotron p{
+  max-width: 51.3rem;
+  margin: auto;
+}
+
+/* button position */
+.jumbotron .container .btn-primary {
+  margin-top: 2.8rem;
+}
+
+
+    /* MOBILE JUMBOTRON */
+    @media only screen and (max-width : 1080px){
+      .jumbotron h1{
+        font-size: 5.7rem;
+      }
+
+    }
+    /*end MOBILE JUMBOTRON */
+
+/*END JUMBOTRON */
+
+/* ------------------------------------------------- */
+
+/* FEATURED SECTION */
+.featured-project{
+  line-height: 2rem;
+}
+
+.image-container img{
+  width: 100%;
+  overflow: hidden;
+  padding-top: 2rem;
+}
+
+.featured-project h2{
+  font-weight: bold;
+  color: rgb(57, 155, 209);
+  margin-bottom: 1.5rem;
+}
+
+.featured-project h3{
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.project-cat h3{
+  color: rgb(57, 155, 209);
+}
+
+.project-cat li{
+  color: rgba(0, 0, 0, 0.7);
+}
+
+
+    /* MOBILE FEATURED SECTION */
+    @media only screen and (max-width : 1080px){
+
+
+
+    }
+    /*end MOBILE FEATURED SECTION */
+
+
+/*END FEATURED SECTION */
+
+/* ------------------------------------------------- */
+
+/* PROJECTS SECTION */
+.projects{
+  padding-bottom: 5.85rem;
+}
+
+
+.projects h2{
+  font-weight: bold;
+  color: rgb(57, 155, 209);
+}
+
+.projects h3{
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+
+    /*MOBILE PROJECTS SECTION*/
+    @media only screen and (max-width : 1080px){
+
+
+    }
+    /*end MOBILE COURSES*/
+
+/*END PROJECTS SECTION */
+
+/* ------------------------------------------------- */
+
+/* CALL TO ACTION SECTION */
+
+.call-to-action{
+  background-color: rgb(243, 243, 243);
+  padding: 5.2rem 0;
+}
+
+.call-to-action .content{
+  text-align: center;
+}
+
+.call-to-action strong{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.call-to-action p{
+  padding: 1.4rem 0;
+  max-width: 42rem;
+  margin: auto;
+}
+
+    /*MOBILE CALL TO ACTION*/
+    @media only screen and (max-width : 1080px){
+
+
+
+    }
+    /*end MOBILE CALL TO ACTION*/
+
+/*END CALL TO ACTION */
+
+
+/* ------------------------------------------------- */
+/* ---END CSS--------------------------------------- */
+/* ------------------------------------------------- */
