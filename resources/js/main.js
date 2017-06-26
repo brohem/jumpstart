@@ -8,7 +8,7 @@ $(document).ready(function(){
     pauseOnHover: false,
     fade: true,
     speed: 2000,
-    cssEase: 'linear'
+    cssEase: 'linear',
   });
 
   var ScrollDistance = 0;
